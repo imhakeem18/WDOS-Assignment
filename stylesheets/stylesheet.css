@@ -1,0 +1,188 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(11, 47, 15);
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color:rgb(249, 248, 244);
+    text-decoration: none;
+    
+}
+
+nav  ul li a:hover{
+    color:green
+    
+}
+
+nav a:active{
+    color: hsl(48, 68%, 34%);
+}
+
+
+
+footer {
+    background-color: rgb(11, 47, 15);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+
+  img{
+    
+    text-align: center;
+  }
+  .container{
+    text-align: center;
+    border-style: solid;
+    border: 2px darkgreen;
+
+
+  }
+
+  section {
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 50px;
+    
+  }
+
+  
+
+
+
+  .search-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-right: 5px;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: rgb(69, 238, 69);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-container button:hover {
+    background-color:rgb(69, 238, 69);
+  }
+
+
+
+
+
+  .unique{
+    background-color: rgb(185, 245, 93);
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+   
+  }
+
+.products-container {
+    display:flex;
+    flex-wrap: wrap; 
+    align-items: stretch;
+    flex-direction: row;
+    background-color: rgb(185, 245, 93);
+    border-radius: 50px;
+    padding: 5px;
+   
+}
+
+
+.product {
+    width: 190px;
+    margin: 10px; 
+    padding: 10px;
+    border: 1px solid #070707;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 27px;
+    
+}
+
+h3{
+  text-align: center;
+}
+
+.text{
+  background-color: rgb(5, 74, 5);
+  padding: 10px;
+  border-radius: 40px;
+  color: #ccc;
+}
+
+section .blue{
+  background-color: darkgreen;
+}
+
+.buy{
+  border-radius: 50px;
+  background-color:rgb(69, 238, 69);
+  padding: 10px;
+  inline-size: 90px;
+  color: white;
+  
+
+}
+
+.product button{
+  border-radius: 40px;
+  background-color:rgb(69, 238, 69);
+  padding: 10px;
+  inline-size: 100px;
+  color: white;
+  border-color: rgb(69, 238, 69);
+  border: none;
+  
+  
+
+}
+
+.product button a{
+  color:black;
+  text-decoration: none;
+
+}
+
+@media (max-width: 768px) {}
+     

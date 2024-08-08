@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/orderstyle.css">
+    <title>Groceries Supermarket</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="vegetable.html">Vegetables</a></li>
+                <li><a href="dairy.html">Dairy Products</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text0" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <section class="darkgreen">
+            <h1>Fruits</h1>
+        </section>
+        <div class="products-container">
+            
+            <div class="product" data-name="Apple" data-price="100" data-image="images/apple.webp">
+                <h3>Apple</h3>
+                <img src="images/apple.webp" alt="apple" width="200" height="200">
+                <p>Rs. 100/-</p>
+                <label for="kg">Kg</label>
+                <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+
+            <div class="product" data-name="Banana" data-price="50" data-image="images/images.jpg">
+                <h3>Banana</h3>
+                <img src="images/images.jpg" alt="Banana" width="200" height="200">
+                <p>Rs. 50/-</p>
+                <label for="kg">Kg</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Orange" data-price="120" data-image="images/orange.png">
+                <h3>Orange</h3>
+                <img src="images/orange.png" alt="orange" width="200" height="200">
+                <p>Rs. 120/-</p>
+                <label for="kg">Kg</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Strawberry" data-price="100" data-image="images/straw1.webp">
+                <h3>Strawberry</h3>
+                <img src="images/straw1.webp" alt="strawberry" width="200" height="200">
+                <p>Rs. 100/-</p>
+                <label for="kg">Kg</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Watermelon" data-price="200" data-image="images/watermelon.webp">
+                <h3>Water Melon</h3> <br>
+                <img src="images/watermelon.webp" alt="watermelon" width="200" height="200"><br>
+                <p>Rs. 200/-</p><br>
+                <label for="kg">Kg</label>
+                <input type="number"  id="kg"name="weight"  class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+            
+            <div class="product" data-name="Pineapple" data-price="70" data-image="images/pine.webp">
+                <h3>Pineapple</h3>
+                <img src="images/pine.webp" alt="Pineapple" width="200" height="200">
+                <p>Rs. 70/-</p>
+                <label for="kg">Kg</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+           </div>
+
+           <section class="darkgreen">
+            <h1>Vegetables</h1>
+        </section>
+        <div class="products-container">
+                <div class="product" data-name="Cucumber" data-price="50" data-image="images/cuc.jpg">
+                    <h3>Cucumber</h3>
+                    <img src="images/cuc.jpg" alt="Cucumber" width="200" height="200">
+                    <p>Rs. 50/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+    
+                <div class="product" data-name="Onion" data-price="40" data-image="images/onion.jpg">
+                    <h3>Onion</h3>
+                    <img src="images/onion.jpg" alt="Onion" width="200" height="200">
+                    <p>Rs. 40/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+    
+                <div class="product" data-name="Carrot" data-price="120" data-image="images/carrot.jpg">
+                    <h3>Carrot</h3>
+                    <img src="images/carrot.jpg" alt="Carrot" width="200" height="200">
+                    <p>Rs. 120/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+    
+                <div class="product" data-name="Bitter Gourd" data-price="100" data-image="images/bitter.jpg">
+                    <h3>Bitter Gourd</h3>
+                    <img src="images/bitter.jpg" alt="Bitter Gourd" width="200" height="200">
+                    <p>Rs. 100/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+    
+                <div class="product" data-name="Beetroot" data-price="30" data-image="images/beetnew.jpg">
+                    <h3>Beetroot</h3> 
+                    <img src="images/beetnew.jpg" alt="Beetroot" width="200" height="200">
+                    <p>Rs. 30/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+                
+                <div class="product" data-name="Tomato" data-price="20" data-image="images/tom1.jpeg">
+                    <h3>Tomato</h3>
+                    <img src="images/tom1.jpeg" alt="Tomato" width="200" height="200">
+                    <p>Rs. 20/-</p>
+                    <label for="kg">Kg</label>
+                    <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                    <button class="add-to-cart">Add to Cart</button><br><br>
+                    <button class="toggle-favourite">Add to Favourite</button>
+                </div>
+               </div>
+               
+               <section class="darkgreen">
+                <h1>Dairy Produce</h1>
+            </section>
+            <div class="products-container">
+                    <div class="product" data-name="cheese" data-price="50" data-image="images/cheese.webp">
+                        <h3>Cheese</h3>
+                        <img src="images/cheese.webp" alt="cheese" width="200" height="200">
+                        <p>Rs. 500/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+        
+                    <div class="product" data-name="butter" data-price="40" data-image="images/butter.webp">
+                        <h3>Butter</h3>
+                        <img src="images/butter.webp" alt="Butter" width="200" height="200">
+                        <p>Rs. 150/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+        
+                    <div class="product" data-name="Milk" data-price="120" data-image="images/milk.webp">
+                        <h3>Milk</h3>
+                        <img src="images/milk.webp" alt="Milk" width="200" height="200">
+                        <p>Rs. 300/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+        
+                    <div class="product" data-name="Youghurt" data-price="100" data-image="images/yogh.jpg">
+                        <h3>Youghurt</h3>
+                        <img src="images/yogh.jpg" alt="Youghurt" width="200" height="200">
+                        <p>Rs. 80/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+        
+                    <div class="product" data-name="Mayonnaise" data-price="30" data-image="images/mayon.jpg">
+                        <h3>Mayonnaise</h3> 
+                        <img src="images/mayon.jpg" alt="Mayonnaise" width="200" height="200">
+                        <p>Rs. 250/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+                    
+                    <div class="product" data-name="Kefir" data-price="20" data-image="images/kefir1.webp">
+                        <h3>Tomato</h3>
+                        <img src="images/kefir1.webp" alt="Kefir" width="200" height="200">
+                        <p>Rs. 200/-</p>
+                        <label for="kg">Qty</label>
+                        <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                        <button class="add-to-cart">Add to Cart</button><br><br>
+                        <button class="toggle-favourite">Add to Favourite</button>
+                    </div>
+                   </div>
+                   
+
+                   <section class="darkgreen">
+                    <h1>Meat and Seafood</h1>
+                </section>
+                <div class="products-container">
+                        <div class="product" data-name="Chicken" data-price="50" data-image="images/chicken.jpg">
+                            <h3>Chicken</h3>
+                            <img src="images/chicken.jpg" alt="chicken" width="200" height="200">
+                            <p>Rs. 500/-</p>
+                            <label for="kg">Kg</label>
+                            <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+                        </div>
+            
+                        <div class="product" data-name="Beef" data-price="40" data-image="images/beef.jpg">
+                            <h3>Beef</h3>
+                            <img src="images/beef.jpg" alt="Beef" width="200" height="200">
+                            <p>Rs. 1050/-</p>
+                            <label for="kg">kg</label>
+                            <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+                        </div>
+            
+                        <div class="product" data-name="Fish" data-price="120" data-image="images/fish1.jpg">
+                            <h3>Fish</h3>
+                            <img src="images/fish1.jpg" alt="Fish" width="200" height="200">
+                            <p>Rs. 300/-</p>
+                            <label for="kg">kg</label>
+                            <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+                        </div>
+            
+                        <div class="product" data-name="Samon" data-price="100" data-image="images/tuna.webp">
+                            <h3>Tuna</h3>
+                            <img src="images/tuna.webp" alt="Samon" width="200" height="200">
+                            <p>Rs. 300/-</p>
+                            <label for="kg">Qty</label>
+                            <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+                        </div>
+            
+                        <div class="product" data-name="Mutton" data-price="30" data-image="images/mutton.jpg">
+                            <h3>Mutton</h3> 
+                            <img src="images/mutton.jpg" alt="Mutton" width="200" height="200">
+                            <p>Rs. 2000/-</p>
+                            <label for="kg">kg</label>
+                            <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+                        </div>
+                        
+                        <div class="product" data-name="Lamb" data-price="20" data-image="images/lamb.jpg">
+                            <h3>Lamb</h3>
+                            <img src="images/lamb.jpg" alt="Lamb" width="200" height="200">
+                            <p>Rs. 3000/-</p>
+                            <label for="kg">kg</label>
+                            <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                            <button class="add-to-cart">Add to Cart</button><br><br>
+                            <button class="toggle-favourite">Add to Favourite</button>
+        </div>
+
+        </div>
+        <section class="darkgreen">
+            <h1>Baking & Cooking Ingredients</h1>
+        </section>
+         
+        <div class="products-container">
+            <div class="product" data-name="Baking" data-price="50" data-image="images/baking.webp">
+                <h3>Baking Powder</h3>
+                <img src="images/baking.webp" alt="Baking" width="200" height="200">
+                <p>Rs. 200/-</p>
+                <label for="kg">Qty</label>
+                <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Chocolate" data-price="40" data-image="images/choc.webp">
+                <h3>Cooking Chocolate</h3>
+                <img src="images/choc.webp" alt="Chocolate" width="200" height="200">
+                <p>Rs. 500/-</p>
+                <label for="kg">Qty</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Sugar" data-price="120" data-image="images/sugar.webp">
+                <h3>Sugar</h3>
+                <img src="images/sugar.webp" alt="Sugar" width="200" height="200">
+                <p>Rs. 300/-</p>
+                <label for="kg">Qty</label>
+                <input type="number" id="kg"name="weight"class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Salt" data-price="100" data-image="images/salt.png">
+                <h3>Salt</h3>
+                <img src="images/salt.png" alt="Salt" width="200" height="200">
+                <p>Rs. 80/-</p>
+                <label for="kg">Qty</label>
+                <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+
+            <div class="product" data-name="Flour" data-price="30" data-image="images/flour.jpg">
+                <h3>Flour</h3> 
+                <img src="images/flour.jpg" alt="Flour" width="200" height="200">
+                <p>Rs. 250/-</p>
+                <label for="kg">Qty</label>
+                <input type="number"  id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+            
+            <div class="product" data-name="Cocoa Powder" data-price="20" data-image="images/coc.jpg">
+                <h3>Cocoa Powder</h3>
+                <img src="images/coc.jpg" alt="Cocoa Powder" width="200" height="200">
+                <p>Rs. 200/-</p>
+                <label for="kg">Qty</label>
+                <input type="number" id="kg"name="weight" class="item-quantity" min="1" max="100" step="1" value="1"><br><br>
+                <button class="add-to-cart">Add to Cart</button><br><br>
+                <button class="toggle-favourite">Add to Favourite</button>
+            </div>
+           </div>
+
+
+        <section class="darkgreen">
+            <h1>Your Cart</h1>
+        </section>
+        <section class="cart-section">
+            <center>
+                <table id="cartTable" border="1">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <p>Final Total Price: Rs.<span id="finalTotalPrice">0.00</span></p>
+               <div class="alpha"> <button id="clearCart" class="clear-cart">Clear Cart</button>
+                <a href="confirm.html"><button id="buyNow">Buy Now</button></a></div>
+            </center>
+        </section>
+        
+        <section class="darkgreen">
+            <h1>Your Favourites</h1>
+        </section>
+      <div class="alpha"><center><button id="applyFavourites">Apply Favourites</button></center></div>
+        <section class="favourites-section">
+            <div id="favouritesList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="https://www.twitter.com"><img src="images/twitter.png" alt="twitter" width="30" height="30"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram.webp" alt="instagram" width="30" height="30"></a>
+        <a href="https://www.facebook.com"><img src="images/fb2.png" alt="facebook" width="30" height="30"></a>
+        <a href="https://www.youtube.com"><img src="images/yt1.webp" alt="youtube" width="30" height="30"></a>
+        <p>Groceries Supermarket 2024&copy; - This is a copyrighted website.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

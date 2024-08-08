@@ -1,0 +1,22 @@
+{
+    "name": "Grocies",
+    "description": "PWA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "images/icon-192x194.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
