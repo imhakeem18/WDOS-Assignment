@@ -1,133 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="stylesheet" href="stylesheets/cosmeticstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="stylesheets/confirm.css">
 </head>
 <body>
-  <header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="vegetable.html">Vegetables</a></li>
+                <li><a href="dairy.html">Dairy Products</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="loyalty.html">Loyalty</a></li>
+            </ul>
+        </nav>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="cosmetics.html">Cosmetics </li>
-            <li><a href="vegetable.html">Vegetables</a></li>
-            <li><a href="dairy.html">Dairy Products</a></li>
-            <li><a href="order.html">Order</a></li>
-            <li><a href="loyalty.html">Loyalty </a></li>
-
-            
-        </ul>
-    </nav>
-    
-<div class="search-container">
-<form action="/search" method="get">
-  <input type="text0" placeholder="Search.." name="search">
-  <button type="submit">Search</button>
-</form>
-</div>
-
-  </header>
-    <main>
-        <section>
-            <h1>Cosmetics and Skin Care Products</h1>
-          
-        </section>
-        <table border="1">
-            <thead>
-            <th>Type </th>
-            <th colspan="4">Products</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> Hair </td>
-        <div class="container">
-           <td> <div class="product">ANTI DANDRUFF SCALP CLEANSING SHAMPOO
-            <img src="images/dandruff.png" alt="cos1" width="335" height="282">
-            <h3>Rs.2000/-</h3>
-            <center> <button><a href="order.html">Buy Now</a></button></center>
-            </div> </td>
-            <td><div class="product">HYDRO BOOST SHAMPOO
-                <img src="images/shampoo.png" alt="cos1" width="335" height="300">
-                <h3>Rs.1000/-</h3>
-                <center> <button><a href="order.html">Buy Now</a></button></center>
-                </div> </td>
-               <td> <div class="product">GLISTENING SERUM
-                    <img src="images/serum.png" alt="cos1" width="335" height="300">
-                    <h3>Rs.1500/-</h3>
-                    <center> <button><a href="order.html">Buy Now</a></button></center>
-                    </div></td>
-                   <td> <div class="product">MIRACLE HAIR TREATMENT
-                        <img src="images/cos4.png" alt="cos1" width="335" height="300">
-                        <h3>Rs.3000/-</h3>
-                        <center> <button><a href="order.html">Buy Now</a></button></center>
-                        </div></td> </tr>
-
-                            <tr>
-                                <td>Skin</td>
-                         <td><div class="product">FAIR INTENSE 1 FOR ALL SKIN TYPES
-                            <img src="images/cos5.png" alt="cos1" width="335" height="303">
-                            <h3>Rs.550/-</h3>
-                            <center> <button><a href="order.html">Buy Now</a></button></center>
-                            </div></td> 
-            
-                          <td>  <div class="product">OIL- FREE MOISTURIZING SERUM
-                                <img src="images/cos6.png" alt="cos1" width="335" height="300">
-                                <h3>Rs.2750/-</h3>
-                                <center> <button><a href="order.html">Buy Now</a></button></center>
-                                </div></td>
-                                <td><div class="product">FOOT REPAIR CREAM
-                                    <img src="images/cos7.png" alt="cos1" width="335" height="300">
-                                    <h3>Rs.5540/-</h3>
-                                    <center> <button><a href="order.html">Buy Now</a></button></center>
-                                    </div></td>
-
-                                <td><div class="product">REJUVENATE HAND CREAM
-                                        <img src="images/cos8.png" alt="cos1" width="335" height="300">
-                                        <h3>Rs.990/-</h3>
-                                        <center> <button><a href="order.html">Buy Now</a></button></center>
-                                        </div></td> </tr>
-
-                                        <tr>
-                                            <td>Face</td>
-                                        <td><div class="product">LASTING MATTE FOUNDATION
-                                            <img src="images/cos9.png" alt="cos1" width="335" height="300">
-                                            <h3>Rs.1950/-</h3>
-                                            <center> <button><a href="order.html">Buy Now</a></button></center>
-                                            </div></td>
-
-                                        <td> <div class="product">FACIAL SCRUB FOR ALL SKIN TYPES
-                                                <img src="images/cos10.png" alt="cos1" width="335" height="300">
-                                                <h3>Rs.3950/-</h3>
-                                                <center> <button><a href="order.html">Buy Now</a></button></center>
-                                                </div></td>
-
-                                            <td><div class="product">PERFUMED BODY LOTION FOR ALL SKIN TYPES
-                                                    <img src="images/cos11.png" alt="cos1" width="335" height="280">
-                                                    <h3>Rs.4400/-</h3>
-                                                    <center> <button><a href="order.html">Buy Now</a></button></center>
-                                                    </div></td>
-
-                                                <td> <div class="product">WASH OFF CLEANSING GEL - MENS FACE WASH
-                                                        <img src="images/cleansing.png" alt="cos1" width="335" height="300">
-                                                        <h3>Rs.950/-</h3>
-                                                        <center> <button><a href="order.html">Buy Now</a></button></center>
-                                                        </div></td> </tr>
+        <div class="search-container">
+            <form action="/search" method="get">
+                <input type="text0" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+            </form>
         </div>
-       
+    </header>
 
-        </table>
+    <main>
+        <section class="darkgreen">
+            <h1>Order Confirmation</h1>
+        </section>
+        <br><br>
+        <center>
+            <table id="orderTable" class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p>Final Total Price: Rs.<span id="orderTotalPrice">0.00</span></p>
+        </center>
+
+        <section id="darkgreen">
+            <h1>Personal Details</h1>
+        </section>
+        <section class="green">
+            <form id="orderForm" action="#" method="post">
+                <br>
+                <label for="text01"><b><center>Enter Name</center></b></label>
+                <br>
+                <input type="text" name="fullname" id="text01">
+                <br><br><br>
+                <label for="text02"><b><center>Enter Contact No</center></b></label>
+                <br>
+                <input type="text" name="number" id="text02">
+                <br><br><br>
+            </form>
+        </section>
+
+        <section id="darkgreen">
+            <h1>Delivery Details</h1>
+        </section>
+        <section class="green">
+            <form id="deliveryForm" action="#" method="post">
+                <br>
+                <label for="text03"><b><center>Enter Delivery Address</center></b></label>
+                <br>
+                <input type="text" name="address" id="text03">
+                <br><br><br>
+            </form>
+        </section>
+
+        <section id="darkgreen">
+            <h1>Payment Information</h1>
+        </section>
+        <section class="green">
+            <form id="paymentForm" action="#" method="post">
+                <br>
+                <label for="payment"><b><center>Choose payment method</center></b></label>
+                <br>
+                <center>
+                    <input type="radio" id="Cash" value="cash" name="payment">Cash 
+                    <input type="radio" id="Card" value="card" name="payment">Card 
+                    <br><br><br>
+                </center> 
+            </form>
+          <div class="alpha">  <center><button id="pay">Pay Now</button></center></div>
+        </section>
     </main>
-  
+
     <footer>
         <h3>Follow Us</h3>
-         <a href="www.twitter.com"> <img src="images/twitter.png" alt="twitter" width="30px" height="30px"></a>
-          <a href="instagram.com"><img src="images/instagram.webp" alt="fb" width="30px" height="30px"></a>
-          <a href="facebook.com"><img src="images/fb2.png" alt="fb" width="30px" height="30px"></a>
-         <a href="youtube.com"> <img src="images/yt1.webp" alt="fb" width="30px" height="30px"></a>
-          <br>
-          <br>
-          <p> Grocies Supermarket 2024&copy;<br>this is a copyrighted website</p>
-      </footer>
+        <a href="https://www.twitter.com"><img src="images/twitter.png" alt="twitter" width="30" height="30"></a>
+        <a href="https://www.instagram.com"><img src="images/instagram.webp" alt="instagram" width="30" height="30"></a>
+        <a href="https://www.facebook.com"><img src="images/fb2.png" alt="facebook" width="30" height="30"></a>
+        <a href="https://www.youtube.com"><img src="images/yt1.webp" alt="youtube" width="30" height="30"></a>
+        <br>
+        <br>
+        <p>Groceries Supermarket 2024&copy;<br>This is a copyrighted website</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const orderTableBody = document.querySelector('#orderTable tbody');
+            const orderTotalPriceElement = document.getElementById('orderTotalPrice');
+
+            const cartData = JSON.parse(localStorage.getItem('cartData'));
+            const finalTotalPrice = localStorage.getItem('finalTotalPrice');
+
+            if (cartData && cartData.length > 0) {
+                cartData.forEach(function (item) {
+                    const newRow = document.createElement('tr');
+                    newRow.innerHTML = `
+                        <td>${item.name}</td>
+                        <td><img src="${item.image}" alt="${item.name}" width="50" height="50"></td>
+                        <td>Rs.${item.price.toFixed(2)}</td>
+                        <td>${item.quantity}</td>
+                        <td>Rs.${item.total.toFixed(2)}</td>
+                    `;
+                    orderTableBody.appendChild(newRow);
+                });
+
+                orderTotalPriceElement.textContent = finalTotalPrice;
+            } else {
+                orderTotalPriceElement.textContent = '0.00';
+            }
+        });
+
+        document.getElementById('pay').addEventListener('click', function () {
+            const name = document.getElementById('text01').value;
+            const contact = document.getElementById('text02').value;
+            const address = document.getElementById('text03').value;
+            const paymentMethod = document.querySelector('input[name="payment"]:checked');
+
+            if (name && contact && address && paymentMethod) {
+                const deliveryDate = new Date();
+                deliveryDate.setDate(deliveryDate.getDate() + 7); 
+                const formattedDate = deliveryDate.toDateString();
+
+                alert(`Thank you for your purchase, ${name}! Your order will be delivered by ${formattedDate}.`);
+            } else {
+                alert('Please fill out all fields and choose a payment method.');
+            }
+        });
+    </script>
 </body>
 </html>
