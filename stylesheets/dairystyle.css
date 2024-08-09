@@ -173,6 +173,7 @@ section .blue{
   color: white;
   border-color: rgb(69, 238, 69);
   border: none;
+  align-items: center;
   
   
 
