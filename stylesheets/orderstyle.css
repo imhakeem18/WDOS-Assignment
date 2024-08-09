@@ -351,3 +351,10 @@ table tbody{
 
 
 
+#cartTable{
+  align-items: center;
+}
+
+.applyFavourites{
+  align-items: center;
+}
