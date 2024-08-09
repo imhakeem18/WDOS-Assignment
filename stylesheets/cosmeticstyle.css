@@ -181,6 +181,7 @@ section .blue{
     color: rgb(255, 255, 255);
     border-color: rgb(69, 238, 69);
     border: none;
+    align-items: center;
     
     
 
@@ -205,3 +206,7 @@ td{
 @media (max-width: 768px) {}
 
   
+#newtable{
+  border-style:solid;
+  border-color: black;
+}
