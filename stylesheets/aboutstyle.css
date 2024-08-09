@@ -162,8 +162,13 @@ h3{
 
 }
 
-table{
+#newtable{
   background-color: rgb(185, 245, 93);
   border-radius: 10px;
+  align-items: center;
+  border: 10px;
+  border-color: black;
+
+
 }
 
