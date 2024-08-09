@@ -143,7 +143,7 @@
 
             if (name && contact && address && paymentMethod) {
                 const deliveryDate = new Date();
-                deliveryDate.setDate(deliveryDate.getDate() + 7); // Set delivery date to one week from now
+                deliveryDate.setDate(deliveryDate.getDate() + 7); 
                 const formattedDate = deliveryDate.toDateString();
 
                 alert(`Thank you for your purchase, ${name}! Your order will be delivered by ${formattedDate}.`);
